@@ -65,6 +65,9 @@ bot.on("message", async message => {
 
 })
 
+    if(cmd === `${prefix}hello`){
+        message.channel.send("Szia");
+    })
 
 
 
